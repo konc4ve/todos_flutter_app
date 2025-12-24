@@ -17,7 +17,7 @@ class TodosOverviewScreenView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.red,
       appBar: TodosAppBar(),
       body: TodosStatusDragAndDropLists(),
     );
